@@ -31,7 +31,6 @@ Hit the (**boot2docker ip**) at port 80 (typically http://192.168.59.103/)
 Commit something and Circle CI will build and run your tests
 
 ![Circle CI](/images/cci.png)
-Format: ![Alt Text](url)
 
 TODO: Continous deployment
 
