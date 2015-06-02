@@ -1,4 +1,5 @@
 **A sample Docker workflow with Node.js, Redis and NGiNX**
+
 [![Circle CI](https://circleci.com/gh/CostaRicaChc/docker.svg?style=svg)](https://circleci.com/gh/CostaRicaChc/docker)
 
 In VirtualBox share your project root dir as 'dwf' (or whatever you like)
@@ -25,15 +26,24 @@ Run the alias to launch the app
 
     dc up
 
-Hit the (**boot2docker ip**) at port 8080
+Hit the (**boot2docker ip**) at port 80 (typically http://192.168.59.103/)
 
 Commit something and Circle CI will build and run your tests
 
+![Circle CI](/images/cci.png)
+Format: ![Alt Text](url)
+
 TODO: Continous deployment
 
-:musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note:
+Ref:  
 
-    
+    https://docs.docker.com/compose/
+    http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/
+
+
+:musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note: :musical_note:
+
+
 
 
 
